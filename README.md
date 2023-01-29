@@ -174,7 +174,7 @@ En Kubernetes y OpenShift, la configuración de redes se puede realizar a travé
 
 1. Servicio: define un punto de acceso de red para los contenedores en un pod.
 
-      Se puede utilizar para exponer los contenedores a Internet o para conectarlos entre sí            dentro del clúster.
+      Se puede utilizar para exponer los contenedores a Internet o para conectarlos entre sí   dentro del clúster.
 
 1. ConfigMap: permite la definición de configuraciones de red, como los nombres de los servidores DNS.
 2. NetworkPolicy: permite controlar el flujo de tráfico de red entre los pods en un clúster.
@@ -182,7 +182,8 @@ En Kubernetes y OpenShift, la configuración de redes se puede realizar a travé
 4. Plugins de red: OpenShift permite la implementación de plugins de red, que son soluciones de terceros que proporcionan características adicionales, como la integración con herramientas de firewall o la gestión de direcciones IP.
 
 Para configurar las redes en un clúster de Kubernetes o OpenShift, se deben definir los objetos de red necesarios y utilizar las herramientas adecuadas para implementarlos y administrarlos. Esto permitirá que los contenedores comuniquen entre sí y con el exterior de forma eficiente y segura.
-##Consideraciones para diseño de la arquitectura de OpenShift
+
+## Consideraciones para diseño de la arquitectura de OpenShift
 1. Infraestructura: se requiere una infraestructura sólida y escalable para soportar el clúster de OpenShift. Esto puede incluir servidores físicos o virtuales, almacenamiento compartido y redes de alta disponibilidad.
 2. Nodos: los nodos son los servidores que ejecutan los contenedores y proporcionan los recursos necesarios para ejecutar aplicaciones. Deben ser escalables y distribuidos en diferentes zonas de disponibilidad para garantizar la alta disponibilidad y la tolerancia a fallos.
 3. Clúster de control: el clúster de control administra y coordina los nodos y los recursos en el clúster. Debe ser altamente disponible y tolerante a fallos.
@@ -191,7 +192,8 @@ Para configurar las redes en un clúster de Kubernetes o OpenShift, se deben def
 6. Despliegues y gestión de aplicaciones: el diseño de la arquitectura debe contemplar la forma en que se realizarán los despliegues y la gestión de aplicaciones en el clúster, incluidas las políticas de seguridad y las prácticas de automatización y monitoreo.
 
 Es importante considerar cuidadosamente cada uno de estos factores al diseñar la arquitectura de OpenShift para garantizar una implementación eficiente, escalable y segura.
-##¿Cómo se implementa la seguridad en un clúster de Kubernetes?
+
+## ¿Cómo se implementa la seguridad en un clúster de Kubernetes?
 
 La seguridad en un clúster de Kubernetes se puede implementar a través de la gestión de los roles y los permisos de los usuarios, la encriptación de los datos en tránsito y en reposo, y la configuración de políticas de seguridad.
 
@@ -210,7 +212,8 @@ Configuración segura por defecto: Configura el clúster con valores seguros por
 Actualizaciones de seguridad: Mantén actualizado el clúster y los componentes relacionados con la seguridad con las últimas correcciones y parches de seguridad.
 
 Es importante tener en cuenta que la seguridad es un proceso continuo y debes monitorear y mejorar la seguridad de tu clúster de Kubernetes en todo momento.
-##¿Cómo se integran los servicios externos con un clúster de Kubernetes?
+
+## ¿Cómo se integran los servicios externos con un clúster de Kubernetes?
  Los servicios externos se pueden integrar con un clúster de Kubernetes mediante la utilización de objetos como los servicios y los ingress.
  
  Uso de servicios de nube pública: Integra servicios como bases de datos, almacenamiento y monitoreo en la nube utilizando proveedores como AWS, Google Cloud o Azure.
