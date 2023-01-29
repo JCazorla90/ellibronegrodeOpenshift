@@ -1,5 +1,4 @@
 # El libro Negro de Openshift 🐱‍👤
-*En Construcción*
 ![](https://i2.wp.com/becloudready.com/wp-content/uploads/2020/09/Screen-Shot-2020-09-30-at-9.02.29-AM.png?resize=1024%2C558&ssl=1)
 
 ![](https://img.shields.io/github/stars/jcazorla90) ![](https://img.shields.io/github/forks/jcazorla90/editor.svg) ![](https://img.shields.io/github/tag/jcazorla90/editor.svg) ![](https://img.shields.io/github/v/release/jcazorla90/editor.svg) ![](https://img.shields.io/github/issues/jcazorla90/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
@@ -22,19 +21,19 @@
 -  El libro Negro de Openshift 🐱‍👤
     -   Antes de empezar
 
-OpenShift & Kubernetes
--  ¿Qué es Kubernetes y cómo funciona?
--   ¿Qué es OpenShift y cómo se diferencia de Kubernetes?
--   ¿Cómo se implementa la alta disponibilidad en un clúster de Kubernetes?
--  ¿Cómo se realiza el escalado automático en un clúster de Kubernetes?]
--   ¿Cómo se manejan las actualizaciones y las rollbacks en un clúster de Kubernetes?]
--   ¿Cómo se realiza la monitoreo y el diagnóstico de problemas en un clúster de Kubernetes?]
--   ¿Cómo se implementan los despliegues continuos en un clúster de Kubernetes?]
--   Redes en Kubernetes y OpenShift]
--   Consideraciones para diseño de la arquitectura de OpenShift]
--   ¿Cómo se implementa la seguridad en un clúster de Kubernetes?]
--   ¿Cómo se integran los servicios externos con un clúster de Kubernetes?]
-    -   Pasos para añadir seguridad a nuestro entorno
+[OpenShift & Kubernetes](https://github.com/JCazorla90/ellibronegrodeOpenshift/blob/main/README.md#openshift--kubernetes)
+-  [¿Qué es Kubernetes y cómo funciona?](https://github.com/JCazorla90/ellibronegrodeOpenshift/blob/main/README.md#qu%C3%A9-es-kubernetes-y-c%C3%B3mo-funciona)
+-   [¿Qué es OpenShift y cómo se diferencia de Kubernetes?](https://github.com/JCazorla90/ellibronegrodeOpenshift/blob/main/README.md#qu%C3%A9-es-openshift-y-c%C3%B3mo-se-diferencia-de-kubernetes)
+-   [¿Cómo se implementa la alta disponibilidad en un clúster de Kubernetes?](https://github.com/JCazorla90/ellibronegrodeOpenshift/blob/main/README.md#c%C3%B3mo-se-implementa-la-alta-disponibilidad-en-un-cl%C3%BAster-de-kubernetes)
+-  [¿Cómo se realizamos el escalado automático en un clúster de Kubernetes?](https://github.com/JCazorla90/ellibronegrodeOpenshift/blob/main/README.md#c%C3%B3mo-se-implementa-la-alta-disponibilidad-en-un-cl%C3%BAster-de-kubernetes)
+-   [¿Cómo se manejan las actualizaciones y las rollbacks en un clúster de Kubernetes?](https://github.com/JCazorla90/ellibronegrodeOpenshift/blob/main/README.md#c%C3%B3mo-se-manejan-las-actualizaciones-y-las-rollbacks-en-un-cl%C3%BAster-de-kubernetes)
+-   [¿Cómo se realiza la monitoreo y el diagnóstico de problemas en un clúster de Kubernetes?](https://github.com/JCazorla90/ellibronegrodeOpenshift/blob/main/README.md#c%C3%B3mo-se-realiza-la-monitoreo-y-el-diagn%C3%B3stico-de-problemas-en-un-cl%C3%BAster-de-kubernetes)
+-   [¿Cómo se implementan los despliegues continuos en un clúster de Kubernetes?](https://github.com/JCazorla90/ellibronegrodeOpenshift/blob/main/README.md#c%C3%B3mo-se-implementan-los-despliegues-continuos-en-un-cl%C3%BAster-de-kubernetes)
+-   [Redes en Kubernetes y OpenShift](https://github.com/JCazorla90/ellibronegrodeOpenshift/blob/main/README.md#redes-en-kubernetes-y-openshift)
+[-   Consideraciones para diseño de la arquitectura de OpenShift](https://github.com/JCazorla90/ellibronegrodeOpenshift/blob/main/README.md#consideraciones-para-dise%C3%B1o-de-la-arquitectura-de-openshift)
+-   [¿Cómo se implementa la seguridad en un clúster de Kubernetes?](https://github.com/JCazorla90/ellibronegrodeOpenshift/blob/main/README.md#c%C3%B3mo-se-implementa-la-seguridad-en-un-cl%C3%BAster-de-kubernetes)
+-   [¿Cómo se integran los servicios externos con un clúster de Kubernetes?](https://github.com/JCazorla90/ellibronegrodeOpenshift/blob/main/README.md#c%C3%B3mo-se-integran-los-servicios-externos-con-un-cl%C3%BAster-de-kubernetes)
+    -   [Pasos para añadir seguridad a nuestro entorno](https://github.com/JCazorla90/ellibronegrodeOpenshift/blob/main/README.md#pasos-para-a%C3%B1adir-seguridad-a-nuestro-entorno-utilizando-un-servidor-externo-de-wazuh-puedes-seguir-los-siguientes-pasos)
     -  ⚡Siguiente actualización el uso de ArgoCD y ejemplos.
 
 
@@ -89,7 +88,7 @@ API de OpenShift: se pueden crear objetos de recursos utilizando la API de OpenS
 
 Estas herramientas y técnicas trabajan juntas para garantizar una administración eficiente y equilibrada de los recursos en el clúster de OpenShift y para asegurar el desempeño óptimo de las aplicaciones que se ejecutan en el clúster.
 
-## ¿Cómo se implementa la alta disponibilidad en un clúster de Kubernetes?
+##¿Cómo se implementa la alta disponibilidad en un clúster de Kubernetes?
  La alta disponibilidad se puede lograr en un clúster de Kubernetes mediante la implementación de múltiples replicas de una aplicación y la configuración de los recursos y los objetos del clúster para tolerar la falla de nodos y otros problemas.
  
  Uso de múltiples nodos: Utiliza varios nodos para tu clúster de Kubernetes para asegurarte de que existen varios puntos de falla en caso de que algún nodo falle.
@@ -100,7 +99,7 @@ Uso de réplicas de pod: Utiliza múltiples réplicas de tus pods para garantiza
 
 Uso de balanceo de carga: Utiliza un equilibrador de carga para distribuir la carga de tus aplicaciones entre varios pods y garantizar que tu clúster siga funcionando aun cuando algún pod falle.
 
-## ¿Cómo se realiza el escalado automático en un clúster de Kubernetes?
+##¿Cómo se realiza el escalado automático en un clúster de Kubernetes?
  El escalamiento automático en un clúster de Kubernetes se puede lograr mediante la configuración de los recursos y los objetos del clúster para responder a los cambios en la demanda y la utilización de los recursos.
  
  Definición de reglas de autoescalado: Define reglas de autoescalado que indiquen cuándo debes aumentar o disminuir el número de replicas de un pod basándote en una métrica, como la CPU o la memoria.
@@ -125,8 +124,7 @@ Uso de herramientas de gestión de versiones: Herramientas como Helm, GitOps o W
 Uso de estrategias de actualización: Kubernetes ofrece diferentes estrategias de actualización, como "rolling update" o "recreate", que se pueden elegir en función de tus requisitos de disponibilidad y capacidad.
 
 Es importante realizar pruebas exhaustivas en entornos de prueba antes de realizar actualizaciones en producción y tener un plan de contingencia en caso de problemas. También es recomendable tener una estrategia de monitorización y diagnóstico en caso de que surjan problemas durante una actualización o un rollback.
-
-## ¿Cómo se realiza la monitoreo y el diagnóstico de problemas en un clúster de Kubernetes?
+##¿Cómo se realiza la monitoreo y el diagnóstico de problemas en un clúster de Kubernetes?
  El monitoreo y el diagnóstico de problemas en un clúster de Kubernetes se pueden realizar mediante la utilización de herramientas de monitoreo y la revisión de los registros y los informes de estado del clúster.
  
  Monitoreo y alertas: Monitorea tu clúster para detectar problemas y configura alertas para recibir notificaciones cuando se produzcan eventos críticos.
@@ -174,7 +172,7 @@ En Kubernetes y OpenShift, la configuración de redes se puede realizar a travé
 
 1. Servicio: define un punto de acceso de red para los contenedores en un pod.
 
-      Se puede utilizar para exponer los contenedores a Internet o para conectarlos entre sí   dentro del clúster.
+      Se puede utilizar para exponer los contenedores a Internet o para conectarlos entre sí            dentro del clúster.
 
 1. ConfigMap: permite la definición de configuraciones de red, como los nombres de los servidores DNS.
 2. NetworkPolicy: permite controlar el flujo de tráfico de red entre los pods en un clúster.
@@ -182,7 +180,6 @@ En Kubernetes y OpenShift, la configuración de redes se puede realizar a travé
 4. Plugins de red: OpenShift permite la implementación de plugins de red, que son soluciones de terceros que proporcionan características adicionales, como la integración con herramientas de firewall o la gestión de direcciones IP.
 
 Para configurar las redes en un clúster de Kubernetes o OpenShift, se deben definir los objetos de red necesarios y utilizar las herramientas adecuadas para implementarlos y administrarlos. Esto permitirá que los contenedores comuniquen entre sí y con el exterior de forma eficiente y segura.
-
 ## Consideraciones para diseño de la arquitectura de OpenShift
 1. Infraestructura: se requiere una infraestructura sólida y escalable para soportar el clúster de OpenShift. Esto puede incluir servidores físicos o virtuales, almacenamiento compartido y redes de alta disponibilidad.
 2. Nodos: los nodos son los servidores que ejecutan los contenedores y proporcionan los recursos necesarios para ejecutar aplicaciones. Deben ser escalables y distribuidos en diferentes zonas de disponibilidad para garantizar la alta disponibilidad y la tolerancia a fallos.
@@ -212,8 +209,7 @@ Configuración segura por defecto: Configura el clúster con valores seguros por
 Actualizaciones de seguridad: Mantén actualizado el clúster y los componentes relacionados con la seguridad con las últimas correcciones y parches de seguridad.
 
 Es importante tener en cuenta que la seguridad es un proceso continuo y debes monitorear y mejorar la seguridad de tu clúster de Kubernetes en todo momento.
-
-## ¿Cómo se integran los servicios externos con un clúster de Kubernetes?
+##¿Cómo se integran los servicios externos con un clúster de Kubernetes?
  Los servicios externos se pueden integrar con un clúster de Kubernetes mediante la utilización de objetos como los servicios y los ingress.
  
  Uso de servicios de nube pública: Integra servicios como bases de datos, almacenamiento y monitoreo en la nube utilizando proveedores como AWS, Google Cloud o Azure.
@@ -238,7 +234,7 @@ El método de integración depende de tus requisitos y preferencias de arquitect
 
 Estos pasos te permitirán configurar un servidor externo de Wazuh para monitorear la seguridad de tus contenedores en OpenShift y recibir información valiosa sobre posibles amenazas y vulnerabilidades.
 
-Estos pasos son similares a los que seguiriamos para monitrear desde un servidor externo utilizando Zabbix.
+Estos pasos son similares a los que seguiríamos para monitorear desde un servidor externo utilizando Zabbix.
 
 
 
@@ -252,4 +248,4 @@ Estos pasos son similares a los que seguiriamos para monitrear desde un servidor
 
 
 
-###Siguiente actualización el uso de ArgoCD y ejemplos.
+### Siguiente actualización el uso de ArgoCD y ejemplos.🔮
