@@ -20,11 +20,12 @@
 
 [TOC]
 
-#OpenShift & Kubernetes
-##¿Qué es Kubernetes y cómo funciona?
+# OpenShift & Kubernetes
+
+## ¿Qué es Kubernetes y cómo funciona?
 Kubernetes es un sistema de orquestación de contenedores que permite automatizar la implementación, escalamiento y gestión de aplicaciones en contenedores.
 Funciona creando y administrando clústeres de nodos que ejecutan los contenedores.
-##¿Qué es OpenShift y cómo se diferencia de Kubernetes?
+## ¿Qué es OpenShift y cómo se diferencia de Kubernetes?
 OpenShift es una plataforma de aplicaciones en contenedores basada en Kubernetes que proporciona herramientas adicionales para el desarrollo y la implementación de aplicaciones. Se diferencia de Kubernetes en que es más fácil de usar y proporciona una experiencia más integrada para los desarrolladores.
 
  **¿Cómo se administran los recursos en un clúster de Kubernetes?**
@@ -93,7 +94,7 @@ Ejecución de acciones de autoescalado: Ejecuta acciones de autoescalado para au
 
 Estos pasos te permitirán implementar autoescalado en tu clúster de Kubernetes y garantizar que tus aplicaciones tengan el número adecuado de replicas en todo momento, optimizando el uso de recursos y mejorando la disponibilidad y el rendimiento de tus aplicaciones.
 
-##¿Cómo se manejan las actualizaciones y las rollbacks en un clúster de Kubernetes?
+## ¿Cómo se manejan las actualizaciones y las rollbacks en un clúster de Kubernetes?
  Las actualizaciones y los rollbacks en un clúster de Kubernetes se pueden realizar mediante la gestión de las versiones de las aplicaciones y la utilización de técnicas como la implementación canary y blue/green.
  
  Uso de objetos de despliegue: Se crea un objeto de despliegue con la nueva imagen de contenedor y se actualiza el despliegue actual. Se puede hacer un rollback simplemente actualizando el objeto de despliegue con la versión anterior.
@@ -137,7 +138,7 @@ Verificación de solución: Verifica que la solución implementada resuelva efec
 El análisis post-mortem te permitirá mejorar la estabilidad y disponibilidad de tu clúster de Kubernetes, identificar áreas que deban mejorarse y prevenir futuros problemas.
 
 Estos pasos te permitirán realizar un monitoreo y diagnóstico efectivo de problemas en tu clúster de Kubernetes, asegurándote de que tus aplicaciones estén disponibles, funcionando correctamente y optimizando su rendimiento.
-##¿Cómo se implementan los despliegues continuos en un clúster de Kubernetes?
+## ¿Cómo se implementan los despliegues continuos en un clúster de Kubernetes?
 Los despliegues continuos en un clúster de Kubernetes se pueden implementar utilizando herramientas de automatización de construcción y despliegue, como Jenkins, Travis CI, CircleCI, entre otros. El proceso básico consiste en lo siguiente:
 
 1. Integración continua: compila y prueba el código cada vez que se realiza un cambio en el repositorio de control de versiones.
@@ -148,7 +149,7 @@ Los despliegues continuos en un clúster de Kubernetes se pueden implementar uti
 6. Rollback: en caso de un fallo, se puede revertir fácilmente a una versión anterior utilizando objetos de despliegue en Kubernetes.
 
 Estos pasos se pueden automatizar y ejecutar de forma continua y sin interrupciones para lograr un despliegue continuo eficiente en un clúster de Kubernetes.
-##Redes en Kubernetes y OpenShift
+## Redes en Kubernetes y OpenShift
 En Kubernetes y OpenShift, la configuración de redes se puede realizar a través de los siguientes objetos y herramientas:
 
 1. Servicio: define un punto de acceso de red para los contenedores en un pod.
