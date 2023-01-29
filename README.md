@@ -89,7 +89,7 @@ API de OpenShift: se pueden crear objetos de recursos utilizando la API de OpenS
 
 Estas herramientas y técnicas trabajan juntas para garantizar una administración eficiente y equilibrada de los recursos en el clúster de OpenShift y para asegurar el desempeño óptimo de las aplicaciones que se ejecutan en el clúster.
 
-##¿Cómo se implementa la alta disponibilidad en un clúster de Kubernetes?
+## ¿Cómo se implementa la alta disponibilidad en un clúster de Kubernetes?
  La alta disponibilidad se puede lograr en un clúster de Kubernetes mediante la implementación de múltiples replicas de una aplicación y la configuración de los recursos y los objetos del clúster para tolerar la falla de nodos y otros problemas.
  
  Uso de múltiples nodos: Utiliza varios nodos para tu clúster de Kubernetes para asegurarte de que existen varios puntos de falla en caso de que algún nodo falle.
@@ -100,7 +100,7 @@ Uso de réplicas de pod: Utiliza múltiples réplicas de tus pods para garantiza
 
 Uso de balanceo de carga: Utiliza un equilibrador de carga para distribuir la carga de tus aplicaciones entre varios pods y garantizar que tu clúster siga funcionando aun cuando algún pod falle.
 
-##¿Cómo se realiza el escalado automático en un clúster de Kubernetes?
+## ¿Cómo se realiza el escalado automático en un clúster de Kubernetes?
  El escalamiento automático en un clúster de Kubernetes se puede lograr mediante la configuración de los recursos y los objetos del clúster para responder a los cambios en la demanda y la utilización de los recursos.
  
  Definición de reglas de autoescalado: Define reglas de autoescalado que indiquen cuándo debes aumentar o disminuir el número de replicas de un pod basándote en una métrica, como la CPU o la memoria.
@@ -125,7 +125,8 @@ Uso de herramientas de gestión de versiones: Herramientas como Helm, GitOps o W
 Uso de estrategias de actualización: Kubernetes ofrece diferentes estrategias de actualización, como "rolling update" o "recreate", que se pueden elegir en función de tus requisitos de disponibilidad y capacidad.
 
 Es importante realizar pruebas exhaustivas en entornos de prueba antes de realizar actualizaciones en producción y tener un plan de contingencia en caso de problemas. También es recomendable tener una estrategia de monitorización y diagnóstico en caso de que surjan problemas durante una actualización o un rollback.
-##¿Cómo se realiza la monitoreo y el diagnóstico de problemas en un clúster de Kubernetes?
+
+## ¿Cómo se realiza la monitoreo y el diagnóstico de problemas en un clúster de Kubernetes?
  El monitoreo y el diagnóstico de problemas en un clúster de Kubernetes se pueden realizar mediante la utilización de herramientas de monitoreo y la revisión de los registros y los informes de estado del clúster.
  
  Monitoreo y alertas: Monitorea tu clúster para detectar problemas y configura alertas para recibir notificaciones cuando se produzcan eventos críticos.
