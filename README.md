@@ -4,18 +4,6 @@
 ![](https://img.shields.io/github/stars/jcazorla90) ![](https://img.shields.io/github/forks/jcazorla90/editor.svg) ![](https://img.shields.io/github/tag/jcazorla90/editor.svg) ![](https://img.shields.io/github/v/release/jcazorla90/editor.svg) ![](https://img.shields.io/github/issues/jcazorla90/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
 
 *En Construcción*🚧
-### Antes de empezar
-
-- Este recopilatorio aún esta en construcción y pueden faltar apartados.
-- Las recomendaciones y ejemplos que encuentre son de uso personal, siempre revise la documentación oficial de los productos mencionados, no me hago responsable del mal uso de la guia.
-- En proximas actualizaciones se añadirán ejemplos y diagramas explicativos.
-- Tome esta información como una opinión personal.
-- 🚩 Esta información es información general sobre teoria de Kubernetes y OpenShift
-
-
-
-
-
 **Contenidos**
 
 -  El libro Negro de Openshift 🐱‍👤
@@ -34,7 +22,22 @@
 -   [¿Cómo se implementa la seguridad en un clúster de Kubernetes?](https://github.com/JCazorla90/ellibronegrodeOpenshift/blob/main/README.md#c%C3%B3mo-se-implementa-la-seguridad-en-un-cl%C3%BAster-de-kubernetes)
 -   [¿Cómo se integran los servicios externos con un clúster de Kubernetes?](https://github.com/JCazorla90/ellibronegrodeOpenshift/blob/main/README.md#c%C3%B3mo-se-integran-los-servicios-externos-con-un-cl%C3%BAster-de-kubernetes)
     -   [Pasos para añadir seguridad a nuestro entorno](https://github.com/JCazorla90/ellibronegrodeOpenshift/blob/main/README.md#pasos-para-a%C3%B1adir-seguridad-a-nuestro-entorno-utilizando-un-servidor-externo-de-wazuh-puedes-seguir-los-siguientes-pasos)
-    -  ⚡Siguiente actualización el uso de ArgoCD y ejemplos.
+    -  [⚡Siguiente actualización el uso de ArgoCD y ejemplos.](https://github.com/JCazorla90/ellibronegrodeOpenshift#siguiente-actualizaci%C3%B3n-el-uso-de-argocd-y-ejemplos)
+
+
+### Antes de empezar
+
+- Este recopilatorio aún esta en construcción y pueden faltar apartados.
+- Las recomendaciones y ejemplos que encuentre son de uso personal, siempre revise la documentación oficial de los productos mencionados, no me hago responsable del mal uso de la guia.
+- En proximas actualizaciones se añadirán ejemplos y diagramas explicativos.
+- Tome esta información como una opinión personal.
+- 🚩 Esta información es información general sobre teoria de Kubernetes y OpenShift
+
+
+
+
+
+
 
 
 
