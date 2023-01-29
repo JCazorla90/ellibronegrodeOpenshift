@@ -44,7 +44,7 @@
 # OpenShift & Kubernetes
 
 ## ¿Qué es Kubernetes y cómo funciona?
-Kubernetes es un sistema de orquestación de contenedores que permite automatizar la implementación, escalamiento y gestión de aplicaciones en contenedores.
+Kubernetes es un sistema de orquestación de contenedores que permite automatizar la implementación, escalado y gestión de aplicaciones en contenedores.
 Funciona creando y administrando clústeres de nodos que ejecutan los contenedores.
 ## ¿Qué es OpenShift y cómo se diferencia de Kubernetes?
 OpenShift es una plataforma de aplicaciones en contenedores basada en Kubernetes que proporciona herramientas adicionales para el desarrollo y la implementación de aplicaciones. Se diferencia de Kubernetes en que es más fácil de usar y proporciona una experiencia más integrada para los desarrolladores.
@@ -91,10 +91,10 @@ API de OpenShift: se pueden crear objetos de recursos utilizando la API de OpenS
 
 Estas herramientas y técnicas trabajan juntas para garantizar una administración eficiente y equilibrada de los recursos en el clúster de OpenShift y para asegurar el desempeño óptimo de las aplicaciones que se ejecutan en el clúster.
 
-##¿Cómo se implementa la alta disponibilidad en un clúster de Kubernetes?
+## ¿Cómo se implementa la alta disponibilidad en un clúster de Kubernetes?
  La alta disponibilidad se puede lograr en un clúster de Kubernetes mediante la implementación de múltiples replicas de una aplicación y la configuración de los recursos y los objetos del clúster para tolerar la falla de nodos y otros problemas.
  
- Uso de múltiples nodos: Utiliza varios nodos para tu clúster de Kubernetes para asegurarte de que existen varios puntos de falla en caso de que algún nodo falle.
+Uso de múltiples nodos: Utiliza varios nodos para tu clúster de Kubernetes para asegurarte de que existen varios puntos de falla en caso de que algún nodo falle.
 
 Uso de múltiples controladores: Utiliza múltiples controladores para tu clúster para garantizar que la información del clúster se mantiene en sincronía y se mantienen varios puntos de falla.
 
@@ -102,7 +102,7 @@ Uso de réplicas de pod: Utiliza múltiples réplicas de tus pods para garantiza
 
 Uso de balanceo de carga: Utiliza un equilibrador de carga para distribuir la carga de tus aplicaciones entre varios pods y garantizar que tu clúster siga funcionando aun cuando algún pod falle.
 
-##¿Cómo se realiza el escalado automático en un clúster de Kubernetes?
+## ¿Cómo se realiza el escalado automático en un clúster de Kubernetes?
  El escalamiento automático en un clúster de Kubernetes se puede lograr mediante la configuración de los recursos y los objetos del clúster para responder a los cambios en la demanda y la utilización de los recursos.
  
  Definición de reglas de autoescalado: Define reglas de autoescalado que indiquen cuándo debes aumentar o disminuir el número de replicas de un pod basándote en una métrica, como la CPU o la memoria.
