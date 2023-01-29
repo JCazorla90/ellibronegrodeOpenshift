@@ -6,8 +6,8 @@
 *En Construcción*🚧
 **Contenidos**
 
--  El libro Negro de Openshift 🐱‍👤
-    -   Antes de empezar
+
+    -   [Antes de empezar](https://github.com/JCazorla90/ellibronegrodeOpenshift/blob/main/README.md#antes-de-empezar)
 
 [OpenShift & Kubernetes](https://github.com/JCazorla90/ellibronegrodeOpenshift/blob/main/README.md#openshift--kubernetes)
 -  [¿Qué es Kubernetes y cómo funciona?](https://github.com/JCazorla90/ellibronegrodeOpenshift/blob/main/README.md#qu%C3%A9-es-kubernetes-y-c%C3%B3mo-funciona)
