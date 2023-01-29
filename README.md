@@ -115,7 +115,7 @@ Ejecución de acciones de autoescalado: Ejecuta acciones de autoescalado para au
 
 Estos pasos te permitirán implementar autoescalado en tu clúster de Kubernetes y garantizar que tus aplicaciones tengan el número adecuado de replicas en todo momento, optimizando el uso de recursos y mejorando la disponibilidad y el rendimiento de tus aplicaciones.
 
-## ¿Cómo se manejan las actualizaciones y las rollbacks en un clúster de Kubernetes?
+## ¿Cómo se manejan las actualizaciones y los rollbacks en un clúster de Kubernetes?
  Las actualizaciones y los rollbacks en un clúster de Kubernetes se pueden realizar mediante la gestión de las versiones de las aplicaciones y la utilización de técnicas como la implementación canary y blue/green.
  
  Uso de objetos de despliegue: Se crea un objeto de despliegue con la nueva imagen de contenedor y se actualiza el despliegue actual. Se puede hacer un rollback simplemente actualizando el objeto de despliegue con la versión anterior.
