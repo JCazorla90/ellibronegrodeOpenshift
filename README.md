@@ -4,7 +4,7 @@
 
 ![](https://img.shields.io/github/stars/jcazorla90) ![](https://img.shields.io/github/forks/jcazorla90/editor.svg) ![](https://img.shields.io/github/tag/jcazorla90/editor.svg) ![](https://img.shields.io/github/v/release/jcazorla90/editor.svg) ![](https://img.shields.io/github/issues/jcazorla90/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
 
-*En Construcción*
+*En Construcción*🚧
 ### Antes de empezar
 
 - Este recopilatorio aún esta en construcción y pueden faltar apartados.
@@ -14,11 +14,30 @@
 - 🚩 Esta información es información general sobre teoria de Kubernetes y OpenShift
 
 
+
+
+
 **Contenidos**
 
-[TOCM]
+-  El libro Negro de Openshift 🐱‍👤
+    -   Antes de empezar
 
-[TOC]
+OpenShift & Kubernetes
+-  ¿Qué es Kubernetes y cómo funciona?
+-   ¿Qué es OpenShift y cómo se diferencia de Kubernetes?
+-   ¿Cómo se implementa la alta disponibilidad en un clúster de Kubernetes?
+-  ¿Cómo se realiza el escalado automático en un clúster de Kubernetes?]
+-   ¿Cómo se manejan las actualizaciones y las rollbacks en un clúster de Kubernetes?]
+-   ¿Cómo se realiza la monitoreo y el diagnóstico de problemas en un clúster de Kubernetes?]
+-   ¿Cómo se implementan los despliegues continuos en un clúster de Kubernetes?]
+-   Redes en Kubernetes y OpenShift]
+-   Consideraciones para diseño de la arquitectura de OpenShift]
+-   ¿Cómo se implementa la seguridad en un clúster de Kubernetes?]
+-   ¿Cómo se integran los servicios externos con un clúster de Kubernetes?]
+    -   Pasos para añadir seguridad a nuestro entorno
+    -  ⚡Siguiente actualización el uso de ArgoCD y ejemplos.
+
+
 
 # OpenShift & Kubernetes
 
