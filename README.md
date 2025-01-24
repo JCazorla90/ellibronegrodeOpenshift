@@ -6,7 +6,7 @@
 
 ![](https://img.shields.io/github/stars/jcazorla90) ![](https://img.shields.io/github/forks/jcazorla90/editor.svg) ![](https://img.shields.io/github/tag/jcazorla90/editor.svg) ![](https://img.shields.io/github/v/release/jcazorla90/editor.svg) ![](https://img.shields.io/github/issues/jcazorla90/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
 
-_En Construcción_🚧 **Contenidos**
+_En Construcció&#x6E;_&#xD83D;� **Contenidos**
 
 #### [Antes de empezar](./#antes-de-empezar)
 
